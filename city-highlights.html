@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>City Highlights — Travel Easy Guide</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Site stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Travel Easy Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="mountain-trails.html">Trails</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">City Highlights</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero (uses city-specific hero class) -->
+    <header class="hero-city d-flex align-items-center">
+      <div class="overlay"></div>
+      <div class="container hero-inner text-white">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="display-5 fw-bold">City Highlights</h1>
+            <p class="lead lead-compact text-white mb-4">A long, scrollable showcase of neighborhoods, food, culture, nightlife and day trips — packed with inspiration for urban explorers.</p>
+            <div class="d-flex gap-2">
+              <a href="#neighborhoods" class="btn btn-light btn-lg">Neighborhoods</a>
+              <a href="#food" class="btn btn-outline-light btn-lg">Food & Cafes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mt-5">
+      <div class="container py-5">
+
+        <!-- Quick stats -->
+        <section class="mb-5">
+          <div class="city-stats">
+            <div class="stat">
+              <h4>25+</h4>
+              <p>Neighborhoods</p>
+            </div>
+            <div class="stat">
+              <h4>120+</h4>
+              <p>Restaurants & Cafes</p>
+            </div>
+            <div class="stat">
+              <h4>40+</h4>
+              <p>Cultural Sites</p>
+            </div>
+            <div class="stat">
+              <h4>5</h4>
+              <p>Easy Day Trips</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Neighborhoods -->
+        <section id="neighborhoods" class="mb-5">
+          <h2 class="fw-bold">Neighborhoods To Explore</h2>
+          <p class="text-muted">Each neighborhood has a unique personality — art districts, riverside promenades, and hidden lanes filled with local treasures.</p>
+          <div class="row g-4 mt-3">
+            <div class="col-md-4">
+              <div class="card feature-card h-100">
+                <img src="img/97b725f912643f0dd055978ac89c8901.jpg" class="card-img-top" alt="Old Town" style="height: 250px; width: 350px;">
+                <div class="card-body">
+                  <h5 class="card-title">Old Town</h5>
+                  <p class="card-text text-muted small">Cobblestone streets, historic cafes and architecture dating back centuries.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card feature-card h-100">
+                <img src="img/hey.jpeg" class="card-img-top" alt="Riverside" style="height:250px; width: 350px;">
+                <div class="card-body">
+                  <h5 class="card-title">Riverside</h5>
+                  <p class="card-text text-muted small">Walking paths, weekend markets and waterfront views.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card feature-card h-100">
+                <img src="img/15+ Charming Cafe Outdoor Seating Ideas.jpeg" class="card-img-top" alt="Creative Quarter" style="height:250px; width: 350px;">
+                <div class="card-body">
+                  <h5 class="card-title">Creative Quarter</h5>
+                  <p class="card-text text-muted small">Galleries, late-night street art and indie shops.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Food & Cafes -->
+        <section id="food" class="mb-5">
+          <h2 class="fw-bold">Food & Cafes</h2>
+          <p class="text-muted">An ever-evolving food scene — from hole-in-the-wall gems to modern tasting menus.</p>
+          <div class="row g-4 mt-3">
+            <div class="col-lg-6">
+              <div class="card p-3 h-100">
+                <h5 class="fw-bold">Top Picks</h5>
+                <ul class="text-muted mb-0">
+                  <li>Street ramen at Sunrise Alley</li>
+                  <li>Riverside brunch on Saturdays</li>
+                  <li>Late-night tapas in the Creative Quarter</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="city-gallery">
+                <div class="gallery-item card"><img src="img/25573be6a62892a3ff8cb2b3af7b8a83.jpg" alt="Cafe 1"></div>
+                <div class="gallery-item card"><img src="img/5a93a0ece7e2c48627047327be8732a9.jpg" alt="Cafe 2"></div>
+                <div class="gallery-item card"><img src="img/22 Best Cafes in Amsterdam.jpeg" alt="Cafe 3"></div>
+                <div class="gallery-item card"><img src="img/be6ef28cf4f88f7bc8e2f8a15f4ec336.jpg" alt="Cafe 3"></div>
+
+                
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Architecture & Culture -->
+        <section id="culture" class="mb-5">
+          <h2 class="fw-bold">Architecture & Culture</h2>
+          <p class="text-muted">A mix of modern design and preserved landmarks. Museums, open-air theaters, and cultural centers keep the city buzzing.</p>
+          <div class="row g-4 mt-3">
+            <div class="col-md-6">
+              <div class="card p-3 h-100">
+                <h5 class="fw-bold">Must-see Sites</h5>
+                <ol class="text-muted mb-0">
+                  <li>The Old Cathedral</li>
+                  <li>Modern Art Museum</li>
+                  <li>Rooftop observation deck</li>
+                </ol>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 h-100">
+                <h5 class="fw-bold">Local Events</h5>
+                <p class="text-muted small mb-0">Night markets, weekend craft fairs, and seasonal music festivals — check local listings when planning.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nightlife -->
+        <section id="nightlife" class="mb-5">
+          <h2 class="fw-bold">Nightlife</h2>
+          <p class="text-muted">From cozy jazz bars to rooftop cocktails and late-night food markets — the city stays lively after dusk.</p>
+          <div class="row g-4 mt-3">
+            <div class="col-md-4">
+              <div class="card feature-card h-100 p-3">
+                <h5 class="card-title">Rooftop Bars</h5>
+                <p class="card-text text-muted small">Best views at sunset.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card feature-card h-100 p-3">
+                <h5 class="card-title">Live Music</h5>
+                <p class="card-text text-muted small">Local bands and intimate venues.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card feature-card h-100 p-3">
+                <h5 class="card-title">Late-night Eats</h5>
+                <p class="card-text text-muted small">Street food markets for after-hours cravings.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Day Trips -->
+        <section id="daytrips" class="mb-5">
+          <h2 class="fw-bold">Easy Day Trips</h2>
+          <p class="text-muted">Short trips outside the city — beaches, scenic viewpoints, and nearby historic towns.</p>
+          <div class="row g-4 mt-3">
+            <div class="col-md-6">
+              <div class="card destination-card h-100">
+                <img src="img/Fish market stock photo_ Image of fish, mackerel, protein - 1458242.jpeg" class="card-img-top" alt="Seaside Town">
+                <div class="card-body">
+                  <h5 class="card-title">Seaside Town</h5>
+                  <p class="text-muted small">A 90-minute train ride — beaches and seafood.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card destination-card h-100">
+                <img src="img/97b725f912643f0dd055978ac89c8901.jpg" class="card-img-top" alt="Hill Viewpoint">
+                <div class="card-body">
+                  <h5 class="card-title">Hill Viewpoint</h5>
+                  <p class="text-muted small">Scenic hikes and panoramic city vistas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Itineraries (long content) -->
+        <section id="itineraries" class="mb-5">
+          <h2 class="fw-bold">Sample Itineraries</h2>
+          <div class="row g-4 mt-3">
+            <div class="col-md-6">
+              <div class="itinerary">
+                <div class="day">
+                  <h6 class="mb-1 fw-bold">3-Day Weekend</h6>
+                  <p class="text-muted small mb-0">Day 1: Old Town & Riverside — Day 2: Museums & Creative Quarter — Day 3: Day trip to Seaside Town.</p>
+                </div>
+                <div class="day">
+                  <h6 class="mb-1 fw-bold">5-Day Deep Dive</h6>
+                  <p class="text-muted small mb-0">Explore neighborhoods in depth, attend a cultural event, and try a local cooking class.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 h-100">
+                <h6 class="fw-bold">Practical Tips</h6>
+                <ul class="text-muted mb-0">
+                  <li>Buy a day transit pass for buses and trams.</li>
+                  <li>Carry a small umbrella — sudden showers are common.</li>
+                  <li>Download offline maps and local transit apps.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Long gallery to increase scroll length -->
+        <section id="gallery" class="mb-5">
+          <h2 class="fw-bold">City Gallery</h2>
+          <p class="text-muted">Scroll through a curated selection of city scenes.</p>
+          <div class="city-gallery mt-3">
+            <!-- Repeating images to make the page long and beautiful -->
+            <div class="gallery-item"><img src="img/download (10).jpeg" alt="City 1"></div>
+            <div class="gallery-item"><img src="img/383003da312a6cefc8a486044a925889.jpg" alt="City 2"></div>
+            <div class="gallery-item"><img src="img/22 Best Cafes in Amsterdam.jpeg" alt="City 3"></div>
+            <div class="gallery-item"><img src="img/9876c80274557f1e521a9d7a16688e5c.jpg" alt="City 4"></div>
+            <div class="gallery-item"><img src="img/756ef7b4c56d23f79ad9447c436ad670.jpg" alt="City 5"></div>
+          </div>
+        </section>
+
+        <!-- FAQs & Contact -->
+        <section id="faq" class="mb-5">
+          <h2 class="fw-bold">FAQs</h2>
+          <div class="row g-3 mt-3">
+            <div class="col-md-6">
+              <div class="card p-3">
+                <h6 class="fw-bold">Is the city walkable?</h6>
+                <p class="text-muted small mb-0">Many central neighborhoods are walkable; use transit for longer distances.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3">
+                <h6 class="fw-bold">Safe at night?</h6>
+                <p class="text-muted small mb-0">Stick to well-lit areas and avoid quiet alleys if unfamiliar.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-white py-4 border-top">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="text-muted small">© <span id="year"></span> Travel Easy Guide — City Highlights</div>
+        <div class="mt-2 mt-md-0">
+          <a href="#" class="text-muted me-3">Privacy</a>
+          <a href="#" class="text-muted">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Site script (smooth scroll, dynamic year) -->
+    <script src="script.js"></script>
+  </body>
+</html>

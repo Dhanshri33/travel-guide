@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mountain Trails — Travel Easy Guide</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Site stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Navbar (consistent with index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Travel Easy Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Mountain Trails</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#tips">Tips</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero (uses site theme) -->
+    <header class="hero-section d-flex align-items-center" style="background-image: url(img/756ef7b4c56d23f79ad9447c436ad670.jpg); background-size: cover; background-position: center;">
+      <div class="overlay"></div>
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="display-5 fw-bold">Mountain Trails</h1>
+            <p class="lead text-white text-opacity-85">Find curated trails, safety tips, and packing guides for your next mountain adventure.</p>
+            <p>
+              <a href="#trails" class="btn btn-primary btn-lg me-2">View Trails</a>
+              <a href="#gear" class="btn btn-outline-light btn-lg">Gear Checklist</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="mt-5">
+      <div class="container py-5">
+
+        <!-- Intro -->
+        <section class="mb-5 fade-up">
+          <h2 class="fw-bold">Where Adventure Meets Peace</h2>
+          <p class="text-muted">These trails are for wanderers who crave fresh air, breathtaking views, and the thrill of exploring. Below are curated trails, practical tips, and a compact gear checklist.</p>
+        </section>
+
+        <!-- Tips -->
+        <section class="mb-5">
+          <h3 class="fw-semibold">Trekking Tips</h3>
+          <div class="row g-4 mt-2">
+            <div class="col-md-4">
+              <div class="card feature-card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Start Early</h5>
+                  <p class="card-text text-muted small">Cooler temperatures and clearer skies make mornings ideal for trekking.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card feature-card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Hydration</h5>
+                  <p class="card-text text-muted small">Bring sufficient water and electrolytes — altitude increases dehydration risk.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card feature-card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Stay on Marked Paths</h5>
+                  <p class="card-text text-muted small">Changing weather and fragile habitats make sticking to trails important.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Trails list -->
+        <section id="trails" class="mb-5">
+          <h3 class="fw-semibold">Top Trails</h3>
+          <div class="row g-4 mt-3">
+            <div class="col-sm-6 col-lg-4">
+              <div class="card destination-card h-100">
+                <img src="img/383003da312a6cefc8a486044a925889.jpg" class="card-img-top" alt="Eagle Peak">
+                <div class="card-body">
+                  <h5 class="card-title">Eagle Peak Trail</h5>
+                  <p class="text-muted small">Medium difficulty — panoramic mountain views and sunrise spots.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card destination-card h-100">
+                <img src="img/9876c80274557f1e521a9d7a16688e5c.jpg" class="card-img-top" alt="Glacier Ridge">
+                <div class="card-body">
+                  <h5 class="card-title">Glacier Ridge Trek</h5>
+                  <p class="text-muted small">For experienced trekkers — cold terrain and stunning ridgelines.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card destination-card h-100">
+                <img src="img/download (8).jpeg" class="card-img-top" alt="Forest Loop">
+                <div class="card-body">
+                  <h5 class="card-title">Forest Loop Trail</h5>
+                  <p class="text-muted small">Beginner-friendly — shaded paths through lush forests.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gear checklist -->
+        <section id="gear" class="mb-5">
+          <h3 class="fw-semibold">Essential Gear</h3>
+          <div class="row g-3 mt-3">
+            <div class="col-md-6">
+              <ul class="text-muted">
+                <li>Hiking shoes with strong grip</li>
+                <li>Weatherproof jacket</li>
+                <li>Hydration pack or bottles</li>
+                <li>Trail snacks and energy bars</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="text-muted">
+                <li>First aid kit</li>
+                <li>Headlamp / torch</li>
+                <li>Power bank</li>
+                <li>Sunscreen & sunglasses</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Safety & FAQs -->
+        <section class="mb-5">
+          <h3 class="fw-semibold">Safety & FAQs</h3>
+          <div class="row g-3 mt-3">
+            <div class="col-md-6">
+              <div class="card p-3">
+                <h6 class="fw-bold">Safety Guidelines</h6>
+                <p class="text-muted small mb-0">Never trek alone on unfamiliar trails. Share your route, check weather, and avoid risky conditions.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3">
+                <h6 class="fw-bold">Do I need a guide?</h6>
+                <p class="text-muted small mb-0">Guides are recommended for remote or challenging treks; popular trails are usually safe without one.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer (consistent with site) -->
+    <footer class="footer bg-white py-4 border-top">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="text-muted small">© <span id="year"></span> Travel Easy Guide — Mountain Trails</div>
+        <div class="mt-2 mt-md-0">
+          <a href="#" class="text-muted me-3">Privacy</a>
+          <a href="#" class="text-muted">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Site script -->
+    <script src="script.js"></script>
+  </body>
+</html>
